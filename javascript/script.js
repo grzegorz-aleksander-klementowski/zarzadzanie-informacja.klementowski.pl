@@ -1,4 +1,14 @@
+
+<!-- Google tag (gtag.js) -->
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NXDPWXHC1E');
+
+
 function typeWriter(element, text, speed) {
+
   let index = 0;
   element.innerHTML = ''; // Be sure the element is empty before start writting. 
   function writeText() {
