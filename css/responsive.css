@@ -112,18 +112,22 @@
 	}
 
 	main > section.main-presentation .main-text-presentation{
-			font-size: 0.9em;
+			font-size: 2vw;
 			grid-row: 2;
+			text-align: justify;
 	}
 
 	main > section.main-presentation > .content-container {
 				grid-template-columns: 1fr;
-				grid-template-rows: 1fr 1fr;		
+				grid-template-rows: 1fr 2fr;		
     	}
 
 	.main-presentation .main-picture-presentation {
-      		grid-column: 1;
+		grid-column: 1;
 		grid-row: 1;
+		display: grid;
+		justify-items: center;
+		align-items: end;
     	}
 
 	main section.main-presentation img {
@@ -132,7 +136,7 @@
 	}
 	/* hero-skills */	
 	main > section.hero-skills .projects .project h3 {
-		font-size: 2vh;	
+		font-size: 2vw;	
 	}
 	main > section.hero-skills .projects .project > .project-icons-cover {
 			height: 8vh;
@@ -364,7 +368,7 @@
 		main > section.curriculum-vitae > .content-container .soft-skills-list li,
 		section.curriculum-vitae p,
 		main > section.curriculum-vitae > .content-container .about-me p {
-			font-size: 0.5em;
+			font-size: 1.6vh;
 			line-height: 1;
 		}
 
