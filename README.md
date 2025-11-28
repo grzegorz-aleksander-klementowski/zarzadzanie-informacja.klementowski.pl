@@ -1,27 +1,33 @@
-# Information Management Klementowski Website
+# Zarzadzanie Informacja Klementowski – Portfolio Website
 
-Static portfolio site presenting the "Klementowski Information Management" services: BPM consulting, information-flow optimization, business mapping, search visibility, SQL/data efficiency, secure Rust blockchain apps, and AI adoption. The homepage features a video hero, smooth-scrolling navigation, animated section reveals, and contact details for quick collaboration.
+Static one-page presentation for the consultancy’s information management and BPM services. Polish-first copywriting, direct CTAs, and a cinematic hero establish credibility while showcasing the blend of business strategy and engineering.
 
-## Repository structure
-- `index.html` – main landing page with hero, services grid, competencies, and contact sections.
-- `ai-apps.html`, `airtrails-sql-queries.html`, `blockchain-apps.html`, `games-projects.html`, `google-serp-seo-comparison-tool.html`, `php-sql-project.html` – standalone project write-ups linked from the portfolio tiles.
-- `css/` – shared styling (layout, navigation, animations, responsive tweaks, footer, and page-specific styles).
-- `javascript/script.js` – interactive behaviors (typewriter hero text, hamburger menu, smooth scroll, section reveal observer, and touch/mouse scroll helpers).
-- `img/`, `icons/`, `fonts/`, `vid/` – static assets used across the pages.
-- `CNAME` – preserves the custom domain for GitHub Pages deployments.
+## Purpose
+- Position the brand as a partner for optimizing information flow, BPM, SEO, AI adoption, and secure software delivery.
+- Tell a cohesive story that connects international experience, research-driven analysis, and practical technology execution.
+- Make contacting the team effortless via anchored navigation and repeated calls to action.
 
-## Running locally
-1. Install any simple static server (Python is built-in on most systems).
-2. From the repository root, start a server, e.g. `python -m http.server 8000`.
-3. Visit `http://localhost:8000/index.html` to browse the site; linked subpages share the same asset paths.
+## Skills and craft on display
+- Visual direction: full-viewport hero with looping video, gradients, custom typography, and high-contrast palette.
+- UX microinteractions: typewriter intro, IntersectionObserver reveal animations, responsive hamburger navigation, and custom smooth scrolling tuned for wheel, drag, and touch gestures to snap between sections.
+- Content design: service grid with iconography, trust-building bullet copy, Polish messaging for the target audience, and clear value propositions.
+- SEO and analytics readiness: meta description/keywords, favicons, and Google Analytics hooks.
+- Performance discipline: plain HTML/CSS/JavaScript with no build tools or heavy dependencies; semantic structure for accessibility.
 
-## Deployment tips
-- Keep `CNAME` committed so the custom domain continues working when publishing via GitHub Pages.
-- All assets use relative paths, so the site works from any static host without build steps.
+## Page sections and flow
+- Hero: brand lockup, CTA buttons to contact and services, animated greeting over the video background.
+- About: concise value props around systems thinking, international exposure, cost/risk reduction, and continuous learning.
+- Services: cards for information-flow optimization, SEO, SQL/data efficiency, business mapping, blockchain security, and AI onboarding.
+- Competencies: narrative plus trust cues on EU/GB quality standards, BPM modeling, and research-based analysis.
+- Contact footer: direct email/phone and availability, reinforced by navigation anchors.
 
-## Contributing
-Feel free to open issues or PRs for content edits, accessibility improvements, or layout refinements. Please keep markup semantic and avoid adding heavy dependencies to maintain a lightweight, static footprint.
+## Structure
+- `index.html` – landing page markup with hero, services, competencies, and contact anchors.
+- `css/` – layout, navigation, hero, responsive, footer, and animation styles plus custom font declarations.
+- `javascript/script.js` – hero typewriter effect, hamburger menu toggle, IntersectionObserver reveals, and custom scroll logic for mouse wheel, drag, and touch.
+- `img/`, `icons/`, `fonts/`, `vid/` – visual assets including the background video and icon set.
+- `CNAME` – preserves the custom domain for GitHub Pages.
+- `LICENSE` – GPL-3.0 licensing for the repository.
 
 ## License
-Licensed under the GNU General Public License v3.0. See `LICENSE` for details.
-
+GNU General Public License v3.0.
